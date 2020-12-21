@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 from PIL import Image
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 @st.cache(allow_output_mutation=True)
 def load_dataset(dataset):
